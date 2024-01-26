@@ -14,6 +14,8 @@ m/M) - - Volver al Menu principal
 Fecha: 24 - 01 - 25
 */
 #include <iostream>
+#include <cstdlib>
+
 using namespace std;
 
 double num1, num2;
@@ -51,7 +53,7 @@ void concatenarCadenas() {
 	cout << "Ingrese la segunda cadena: ";
 	cin >> cadena2;
 	
-	string resultado = cadena1 + cadena2;
+	string resultado = cadena1 + " " + cadena2;
 	
 	cout << "Cadenas concatenadas: " << resultado << endl;
 }
